@@ -1,102 +1,50 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import {
-  navBar,
-  mainBody,
-  about,
-  repos,
-  leadership,
-  skills,
-  getInTouch,
-  experiences
-} from "./editable-stuff/config.js";
-import MainBody from "./components/home/MainBody";
-import AboutMe from "./components/home/AboutMe";
-import Project from "./components/home/Project";
-import Footer from "./components/Footer";
+import React, { useState, useEffect } from "react";
+import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
-import Skills from "./components/home/Skills";
-// import { Blog } from "./components/blog/Blog";
-// import BlogPost from "./components/blog/BlogPost";
-import GetInTouch from "./components/home/GetInTouch.jsx";
-import Leadership from "./components/home/Leadership.jsx";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer";
+import Resume from "./components/Resume/ResumeNew";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate
+} from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+import "./style.css";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import Experience from "./components/home/Experience";
+function App() {
+  const [load, upadateLoad] = useState(true);
 
-const Home = React.forwardRef((props, ref) => {
-  return (
-    <>
-      <MainBody
-        gradient={mainBody.gradientColors}
-        title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
-        message={mainBody.message}
-        icons={mainBody.icons}
-        ref={ref}
-      />
-      {about.show && (
-        <AboutMe
-          heading={about.heading}
-          message={about.message}
-          link={about.imageLink}
-          imgSize={about.imageSize}
-          resume={about.resume}
-        />
-      )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
-      }
-      {repos.show && (
-        <Project
-          heading={repos.heading}
-          username={repos.gitHubUsername}
-          length={repos.reposLength}
-          specfic={repos.specificRepos}
-        />
-      )}
-      {leadership.show && (
-        <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
-        />
-      )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )}
-      
-    </>
-  );
-});
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
 
-const App = () => {
-  const titleRef = React.useRef();
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
-      <Routes>
-        <Route path="/" exact element={<Home ref={titleRef} />} />
-      </Routes>
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
-      <Footer>
-        {getInTouch.show && (
-          <GetInTouch
-            heading={getInTouch.heading}
-            message={getInTouch.message}
-            email={getInTouch.email}
-          />
-        )}
-      </Footer>
-    </BrowserRouter>
+    <Router>
+      <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <Navbar />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<Navigate to="/"/>} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
-};
+}
 
 export default App;

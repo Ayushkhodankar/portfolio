@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
-  FaFacebookSquare
+  AiFillInstagram 
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -63,7 +62,7 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://ne-np.facebook.com/aayushh.21"
                 style={{ color: "white" }}
@@ -72,7 +71,7 @@ function Footer() {
               >
                 <FaFacebookSquare />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>

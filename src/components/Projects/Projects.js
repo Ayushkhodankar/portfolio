@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="E-Alert"
-              description="A proposed bed booking web application can be used by the hospitals for booking the beds in the emergency cases where users can book beds for the patients in case of emergency. This web application is totally developed in Java(Servlets & JSPs) & locally hosted on Apache Tomcat Server-7 ."
+              description="A proposed bed booking web application can be used by the hospitals for booking the beds in the emergency cases where users can book beds for the patients in case of emergency. This web application is totally developed in Java(Servlets & JSPs),MySQL & locally hosted on Apache Tomcat Server-7  ."
               ghLink="https://github.com/Ayushkhodankar/Bed-Booking-System"
               //demoLink="https://chatify-49.web.app/"
             />
@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Medico"
+              description="An appointment system for the hosp"
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />

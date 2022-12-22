@@ -57,7 +57,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Hut'N Gut"
-              description="A mobile application build with Andriod Studio -Java to order pizzas. In this app the customers can order there own customized pizza according to their requirements."
+              description="A mobile application build with Andriod Studio-Java to order pizzas. In this app the customers can order there own customized pizza according to their requirements."
               ghLink="https://github.com/Ayushkhodankar/Hut-N-Gut-PizzaStore"
               //demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -67,9 +67,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="FootStore"
+              description="This web application raises tickets for the issues discovered by the customers and a admin dashboard is integrated along with this website and this website is builded with Java-Servlets & JSPs and locally hosted on Tomcat-7 Server. "
+              ghLink="https://github.com/Ayushkhodankar/Footwear"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>

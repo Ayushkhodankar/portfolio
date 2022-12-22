@@ -28,7 +28,6 @@ function Projects() {
               title="Product-Manager"
               description="A web application to perform basic CRUD operations in Java-Spring Boot which is developed in Spring Tool Suite(STE)."
               ghLink="https://github.com/Ayushkhodankar/ProductManager-Basic"
-              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -38,7 +37,7 @@ function Projects() {
               title="E-Alert"
               description="A proposed bed booking web application can be used by the hospitals for booking the beds in the emergency cases where users can book beds for the patients in case of emergency. This web application is totally developed in Java(Servlets & JSPs),MySQL & locally hosted on Apache Tomcat Server-7  ."
               ghLink="https://github.com/Ayushkhodankar/Bed-Booking-System"
-              //demoLink="https://chatify-49.web.app/"
+              
             />
           </Col>
 

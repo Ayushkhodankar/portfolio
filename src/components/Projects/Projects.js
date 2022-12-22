@@ -70,7 +70,7 @@ function Projects() {
               title="FootStore"
               description="This web application raises tickets for the issues discovered by the customers and a admin dashboard is integrated along with this website and this website is builded with Java-Servlets & JSPs and locally hosted on Tomcat-7 Server. "
               ghLink="https://github.com/Ayushkhodankar/Footwear"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              //demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 

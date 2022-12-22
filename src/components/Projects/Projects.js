@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Product-Manager"
-              description="A web application to perform basic CRUD operations in Java-Spring Boot which is developed in Spring Tool Suite(STE)."
+              description="A web application to perform basic CRUD operations in Java-Spring Boot which is developed in Spring Tool Suite(STS) v3.9.10 ."
               ghLink="https://github.com/Ayushkhodankar/ProductManager-Basic"
             />
           </Col>

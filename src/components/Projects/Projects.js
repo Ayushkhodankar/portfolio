@@ -37,7 +37,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Medico"
-              description="An appointment system for the hosp"
+              description="An appointment system for the patients for booking the appointments to the doctors along with the doctor dashboard for the queries and appointments of the patients.Java Servlets & JSPs are used to develop the website ,MySQL used to save data locally and Apache Tomcat Server to locally host the website. "
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />

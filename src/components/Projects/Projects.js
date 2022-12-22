@@ -21,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Product-Manager"
+              description="A web application to perform basic CRUD operations in Java-Spring Boot which is developed in Spring Tool Suite(STE)."
+              ghLink="https://github.com/Ayushkhodankar/ProductManager-Basic"
+              //demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}

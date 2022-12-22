@@ -68,13 +68,13 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="FootStore"
-              description="This web application raises tickets for the issues discovered by the customers and a admin dashboard is integrated along with this website and this website is builded with Java-Servlets & JSPs and locally hosted on Tomcat-7 Server. "
+              description="This web application raises tickets for the issues discovered by the customers and session tracking is integrated along with this website and this website is builded with Java-Servlets & JSPs and locally hosted on Tomcat-7 Server. "
               ghLink="https://github.com/Ayushkhodankar/Footwear"
               //demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -83,7 +83,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
         </Row>
       </Container>

@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  FaFacebookSquare
+  AiOutlineFacebook
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -69,7 +69,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaFacebookSquare />
+                <AiOutlineFacebook />
               </a>
             </li>
           </ul>

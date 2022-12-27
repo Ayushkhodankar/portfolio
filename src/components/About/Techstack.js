@@ -14,7 +14,7 @@ import {
   SiFirebase,
   SiNextdotjs,
 } from "react-icons/si";
-
+ 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

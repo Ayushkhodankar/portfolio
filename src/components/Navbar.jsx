@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 //import logo from "../Assets/logo.png";
-import ak from "../Assets/ak.gif";
+//import ak from "../Assets/ak.gif";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -32,7 +32,7 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   return (
-    <Navbar
+    <Navbar 
       expanded={expand}
       fixed="top"
       expand="md"
@@ -42,7 +42,7 @@ function NavBar() {
         {/* <Navbar.Brand href="/" className="d-flex">
           <img src={ak} className="img-fluid logo" alt="brand" />
         </Navbar.Brand> */}
-        <Navbar.Toggle
+        {/* <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
@@ -51,7 +51,7 @@ function NavBar() {
           <span></span>
           <span></span>
           <span></span>
-        </Navbar.Toggle>
+        </Navbar.Toggle> */}
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>

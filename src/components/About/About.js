@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import { ImPointRight } from "react-icons/im";
+import Card from "react-bootstrap/Card";
+import GitHubCalendar from "react-github-calendar";
+
 
 function About() {
   return (
@@ -20,9 +22,38 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              About Me
             </h1>
-            <Aboutcard />
+            <Card className="quote-card-view">
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
+            Hi Everyone, I am <span className="purple">Ayush Khodankar </span>
+            from <span className="purple"> Nagpur, India</span>
+            <br />I am a final year undergraduate in Information Technology
+            <br />
+            <br />
+            Apart from coding, some other activities that I love to do!
+          </p>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Playing PC Games
+            </li>
+            {/* <li className="about-activity">
+              <ImPointRight /> Writting Tech Blogs
+            </li> */}
+            <li className="about-activity">
+              <ImPointRight /> Cricket
+            </li>
+          </ul>
+
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
+            "Failure is the chapter before success!"{" "}
+          </p>
+          <footer className="blockquote-footer">Ayush</footer> */}
+        </blockquote>
+      </Card.Body>
+    </Card>
           </Col>
           <Col
             md={5}
@@ -43,7 +74,18 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+        Contributed Days To Code
+      </h1>
+      <GitHubCalendar
+        username="Ayushkhodankar"
+        blockSize={15}
+        blockMargin={5}
+        color="#c084f5"
+        fontSize={16}
+      />
+    </Row>
       </Container>
     </Container>
   );

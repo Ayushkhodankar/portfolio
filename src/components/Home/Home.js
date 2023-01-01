@@ -1,15 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-//import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
+// import Type from "./Type";
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        {/* <Particle /> */}
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -26,7 +24,18 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+              <Typewriter
+      options={{
+        strings: [
+          "Java Full Stack Developer",
+          "Aspiring MERN Stack Developer",
+          "Open Source Contributor",
+        ],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,
+      }}
+    />
               </div>
             </Col>
 
@@ -41,7 +50,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+    
     </section>
   );
 }

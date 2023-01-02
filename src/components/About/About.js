@@ -39,18 +39,10 @@ function About() {
             <li className="about-activity">
               <ImPointRight /> Playing PC Games
             </li>
-            {/* <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li> */}
             <li className="about-activity">
               <ImPointRight /> Cricket
             </li>
           </ul>
-
-          {/* <p style={{ color: "rgb(155 126 172)" }}>
-            "Failure is the chapter before success!"{" "}
-          </p>
-          <footer className="blockquote-footer">Ayush</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

@@ -82,8 +82,10 @@ button:focus {
 }
 
 .navbar {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  position: fixed !important;
+  position: relative !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;

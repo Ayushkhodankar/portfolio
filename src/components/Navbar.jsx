@@ -62,7 +62,8 @@ function NavBar() {
                 href="https://github.com/Ayushkhodankar/portfolio"
                 target="_blank"
                 className="fork-btn-inner"
-              >
+                name={""}
+              >Star This Repo
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 {/* <AiFillStar style={{ fontSize: "1.1em" }} /> */}
               </Button>

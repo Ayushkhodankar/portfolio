@@ -74,7 +74,7 @@ function About() {
         username="Ayushkhodankar"
         blockSize={15}
         blockMargin={5}
-        color="#c084f5"
+        color="#EE2525"
         fontSize={16}
       />
     </Row>

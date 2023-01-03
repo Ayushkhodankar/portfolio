@@ -1,10 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
-import laptopImg from "../../Assets/about.png";
-import img from "../../Assets/img.json";
+import image from "../../Assets/image.png";
 import Toolstack from "./Toolstack";
-import { ImPointRight } from "react-icons/im";
 import Card from "react-bootstrap/Card";
 import GitHubCalendar from "react-github-calendar";
 
@@ -13,7 +11,14 @@ function About() {
   return (
     <Container fluid className="about-section">
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "left", padding: "10px" }}>
+        <Col
+            md={5}
+            style={{ paddingTop: "10px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={image} style-prop-object="20px" alt="about" className="img-fluid" />
+          </Col>
           <Col
             md={7}
             style={{
@@ -29,32 +34,22 @@ function About() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ayush Khodankar </span>
-            from <span className="purple"> Nagpur, India</span>
-            <br />I am a final year undergraduate in Information Technology
+           Hello, I am <span className="red">Ayush Khodankar</span> a bachelor's student in <span className="red">Information Technology </span>graduating from R.T.M.Nagpur University from<span className="red"> Nagpur, India</span>.
+        <br/><br/>
+            I have completed my certifications in Java Full Stack Development & Front-End Web Development . I am currently 
+            learning MERN Stack Development & Cloud Services.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            This is my personal website which I have created to present the skills which I have aquired while learning and the projects developed.
+            Given below are the listed tools and stacks which have worked with :
+            
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing PC Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Cricket
-            </li>
-          </ul>
+          
         </blockquote>
       </Card.Body>
     </Card>
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={img} alt="about" className="img-fluid" />
-          </Col>
+          
         </Row>
         <h1 className="project-heading">
           Skillsets Aquired
@@ -75,7 +70,7 @@ function About() {
         username="Ayushkhodankar"
         blockSize={15}
         blockMargin={5}
-        color="#EE2525"
+        color="rgb(30, 152, 10)"
         fontSize={16}
       />
     </Row>

@@ -11,10 +11,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello World!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                ✌
-                </span>
+                Hello World!{" "}✌
               </h1>
 
               <h1 className="heading-name">
@@ -26,17 +23,13 @@ function Home() {
               <Typewriter
       options={{
         strings: [
-          "Java Full Stack Developer",
-          "Aspiring MERN Stack Developer",
-          "Open Source Contributor",
+          "Java Full Stack Developer","Aspiring MERN Stack Developer","Open Source Contributor","Frontend Web Development",
         ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
+        autoStart: true,loop: true, deleteSpeed: 50,
       }}
     />
-              </div>
-            </Col>
+    </div>
+   </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img

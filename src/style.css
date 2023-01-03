@@ -12,7 +12,7 @@ html {
   --imp-text-color: #EE2525;
 }
 
-.purple {
+.red {
   color: var(--imp-text-color) !important;
 }
 
@@ -594,10 +594,11 @@ button:focus {
   padding-left: 1px !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 450px) {
   .about-img {
     padding-top: 0 !important;
-  }
+    
+   }
 }
 /* --------- */
 /* Resume */
@@ -608,7 +609,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .resume {

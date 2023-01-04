@@ -1,10 +1,10 @@
-# Personal Portfolio WebApp<!
+# Personal Portfolio WebApp!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 The result of this portfolio is.
 
-<img src="" alt=""></img>
+<img src="https://github.com/Ayushkhodankar/portfolio/blob/main/Images/Screenshot%202023-01-01%20172522.png" alt="preview"></img>
 
 This project was built using these technologies.
 

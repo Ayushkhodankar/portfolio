@@ -6,6 +6,7 @@ You can view the Website [Here](https://www.ayushkhodankar.netlify.app/).
 
 The result of this portfolio is.
 
+<img src="Images/preview.png" alt="preview"/>
 
 
 This project was built using these technologies.

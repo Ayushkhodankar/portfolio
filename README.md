@@ -6,7 +6,7 @@ You can view the Website [Here](https://www.ayushkhodankar.netlify.app/).
 
 The result of this portfolio is.
 
-<img src="https://github.com/Ayushkhodankar/portfolio/blob/main/Images/preview.png" alt="preview"></img>
+<img src="" alt="preview"></img>
 
 This project was built using these technologies.
 

@@ -18,7 +18,7 @@ Stacks used to develop this webapp is:
 - Git
 
 
-## Available Scripts
+## Available Scripts to installation and running the website on local host
 
 In the project directory, you can run:
 

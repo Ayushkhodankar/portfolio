@@ -19,6 +19,7 @@ Stacks used to develop this webapp is:
 
 - VS Code
 - Git
+- Netlify(Deployed Here)
 
 
 ## Available Scripts to installation and running the website on local host

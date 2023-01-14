@@ -1,8 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiEclipseide,SiGithub,
-  SiVisualstudiocode,SiSpring
+  SiEclipseide,
+  SiGithub,
+  SiVisualstudiocode,
+  SiSpring,
 } from "react-icons/si";
 import { DiGit } from "react-icons/di";
 
@@ -16,16 +18,14 @@ function Toolstack() {
         <SiEclipseide />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpring/>
+        <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit/>
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub/>
+        <SiGithub />
       </Col>
-      
-      
     </Row>
   );
 }

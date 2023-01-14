@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiFillFacebook
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -26,7 +26,7 @@ function Footer() {
               <a
                 href="https://github.com/Ayushkhodankar"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -36,7 +36,7 @@ function Footer() {
               <a
                 href="https://twitter.com/ayushkhodankar"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -46,7 +46,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/ayush-khodankar7"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -56,7 +56,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/ayusshhk_/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
@@ -66,7 +66,7 @@ function Footer() {
               <a
                 href="https://ne-np.facebook.com/aayushh.21"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillFacebook />

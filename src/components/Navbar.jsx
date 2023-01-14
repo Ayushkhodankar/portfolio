@@ -28,7 +28,7 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   return (
-    <Navbar 
+    <Navbar
       expanded={expand}
       fixed="top"
       expand="md"
@@ -59,7 +59,8 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
                 name={""}
-              >Star This Repo
+              >
+                Star This Repo
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
               </Button>
             </Nav.Item>
@@ -85,7 +86,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item> 
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

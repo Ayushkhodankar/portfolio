@@ -11,7 +11,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello World!{" "}✌
+                Hello World! ✌
               </h1>
 
               <h1 className="heading-name">
@@ -20,16 +20,21 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-              <Typewriter
-      options={{
-        strings: [
-          "Java Full Stack Developer","Aspiring MERN Stack Developer","Open Source Contributor","Frontend Web Development",
-        ],
-        autoStart: true,loop: true, deleteSpeed: 50,
-      }}
-    />
-    </div>
-   </Col>
+                <Typewriter
+                  options={{
+                    strings: [
+                      "Java Full Stack Developer",
+                      "Aspiring MERN Stack Developer",
+                      "Open Source Contributor",
+                      "Frontend Web Development",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                  }}
+                />
+              </div>
+            </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
@@ -42,7 +47,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-    
     </section>
   );
 }

@@ -1,15 +1,17 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgb(13, 3, 3),rgb(13,3,3)
+    rgb(13, 3, 3),
+    rgb(13, 3, 3)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgb(13, 3, 3),rgb(13,3,3)
+    rgb(13, 3, 3),
+    rgb(13, 3, 3)
   );
 
-  --imp-text-color: #EE2525;
+  --imp-text-color: #ee2525;
 }
 
 .red {
@@ -55,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(13,3,3);
+  background: rgb(13, 3, 3);
 }
 
 /* Handle */
@@ -66,7 +68,7 @@ button:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(39,14,14);
+  background: rgb(39, 14, 14);
   border-radius: 12px;
 }
 
@@ -76,8 +78,8 @@ button:focus {
 .sticky {
   background-color: rgb(38, 9, 9) !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px  rgb(37, 7, 7) !important;
- backdrop-filter: blur(15px) !important;
+  box-shadow: 0px 10px 10px 0px rgb(37, 7, 7) !important;
+  backdrop-filter: blur(15px) !important;
 }
 
 .navbar {
@@ -98,7 +100,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #EE2525 !important;
+  background-color: #ee2525 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -145,7 +147,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color:  #EE2525 !important;
+    background-color: #ee2525 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -195,7 +197,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background:  #EE2525;
+  background: #ee2525;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -282,17 +284,17 @@ button:focus {
 }
 
 .main-name {
-  color:#EE2525;
+  color: #ee2525;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color:#EE2525 !important;
+  color: #ee2525 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #EE2525 !important;
+  color: #ee2525 !important;
 }
 
 @media (max-width: 767px) {
@@ -396,14 +398,14 @@ button:focus {
 }
 
 .icon-colour {
-  color:rgb(24, 5, 5) !important;
+  color: rgb(24, 5, 5) !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(13,3,3);
+  background-color: rgb(13, 3, 3);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -519,14 +521,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color:rgb(24, 5, 5) !important;
+  background-color: rgb(24, 5, 5) !important;
   border-color: rgb(24, 5, 5) !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
   background-color: rgb(75, 17, 17) !important;
-  border-color:rgb(74, 17, 17) !important;
+  border-color: rgb(74, 17, 17) !important;
 }
 .btn:focus {
   outline: none !important;
@@ -597,8 +599,7 @@ button:focus {
 @media (max-width: 450px) {
   .about-img {
     padding-top: 0 !important;
-    
-   }
+  }
 }
 /* --------- */
 /* Resume */

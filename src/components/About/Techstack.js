@@ -7,17 +7,14 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiMysql
+  DiMysql,
 } from "react-icons/di";
-import {
-  SiSpringboot,SiJavascript
-
-} from "react-icons/si";
+import { SiSpringboot, SiJavascript } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-       <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -44,7 +41,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
-      
     </Row>
   );
 }

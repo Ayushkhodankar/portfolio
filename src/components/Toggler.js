@@ -1,5 +1,6 @@
 import React from 'react'
 import { func, string } from 'prop-types';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from "styled-components"
 const Button = styled.button`
   background: ${({ theme }) => theme.background};

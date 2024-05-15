@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import 'bootstrap/dist/css/bootstrap.min.css';
 export const GlobalStyles = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.body};

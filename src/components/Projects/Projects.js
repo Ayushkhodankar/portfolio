@@ -19,9 +19,9 @@ function Projects() {
             <ProjectCard
               imgPath={promanager}
               isBlog={false}
-              title="Product-Manager"
-              description="A web application to perform basic CRUD operations in Java-Spring Boot which is developed in Spring Tool Suite(STS) v3.9.10 along with connection with MySQL for data management."
-              ghLink="https://github.com/Ayushkhodankar/ProductManager-Basic"
+              title="StudyStream"
+              description="Study Stream is integrated along with live session which will help the students to provide online education to develop and learn new skills at home and make interactions between students and tutors easy and more convenient which is developed in Spring Tool Suite(STS) v3.9.10 along with connection with MySQL for data management."
+              ghLink="https://github.com/Ayushkhodankar/StudyStream"
             />
           </Col>
           <Col md={4} className="project-card">

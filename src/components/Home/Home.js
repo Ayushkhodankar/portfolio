@@ -24,8 +24,6 @@ function Home() {
                   options={{
                     strings: [
                       "Java Full Stack Developer",
-                      "Aspiring MERN Stack Developer",
-                      "Open Source Contributor",
                       "Frontend Web Development",
                     ],
                     autoStart: true,

@@ -41,13 +41,13 @@ function About() {
                     Hello, I am <span className="red">Ayush Khodankar</span> a
                     bachelor's student in{" "}
                     <span className="red">Information Technology </span>
-                    graduating from R.T.M.Nagpur University from
+                    graduated from R.T.M.Nagpur University from
                     <span className="red"> Nagpur, India</span>.
                     <br />
                     <br />
                     I have completed my certifications in Java Full Stack
                     Development & Front-End Web Development . I am currently
-                    learning MERN Stack Development & Cloud Services.
+                    learning Cloud Services.
                     <br />
                     <br />
                     This is my personal website which I have created to present

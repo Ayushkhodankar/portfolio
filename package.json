@@ -20,7 +20,9 @@
     "react-spinners": "^0.13.8",
     "source-map-loader": "^5.0.0",
     "typewriter-effect": "^2.20.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-responsive": "^9.0.0", 
+    "prop-types": "^15.8.1" 
   },
   "scripts": {
     "start": "react-scripts start",

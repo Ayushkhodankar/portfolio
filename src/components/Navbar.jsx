@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import { FiMenu, FiX } from "react-icons/fi";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -36,6 +36,17 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={() => updateExpanded(expand ? false : true)}
+          className="custom-toggler"
+        >
+          {expand ? (
+            <FiX size={24} style={{ color: "white" }} /> // Close Icon
+          ) : (
+            <FiMenu size={24} style={{ color: "white" }} /> // Hamburger Icon
+          )}
+        </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto" defaultActiveKey="#home">
             <Nav.Item>
